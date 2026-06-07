@@ -10,7 +10,7 @@ A simple and responsive To-Do List web application built using HTML, CSS, and Ja
 
 ## 📸 Preview
 
-![To-Do List Preview](img.jpeg)
+![To-Do List Preview](img.png)
 
 ---
 
