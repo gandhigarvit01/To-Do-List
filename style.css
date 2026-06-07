@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(38, 38, 38);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.container{
+    height: autopx;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(69, 69, 69);
+    border-radius: 1rem;
+    margin: 20vh;
+}
+
+.container p{
+    color: white;
+    margin: 15px;
+    font-size: 30px;
+}
+ 
+.task{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.task input{
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.task button{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 33px;
+    width: 45px;
+    font-size: 15px;
+    background-color: rgb(70, 208, 243);
+}
+
+.task button:hover{
+    opacity: 60%;
+}
+
+.task button:active{
+    opacity: 30%;
+}
+
+.todo{
+    display: none;
+    justify-content: space-between;
+    background-color: rgb(37, 37, 37);
+    align-items: center;
+    text-align: center;
+    width: 440px;
+    margin: 30px ;
+    border-radius: 0.7rem;
+}
+
+.todo p{
+    font-size: 20px;
+}
+
+.todo button{
+    background-color: rgb(255, 75, 75);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    margin-right: 6px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.todo button:hover{
+    opacity: 60%;
+}
+
+.todo button:active{
+    opacity: 30%;
+}
